@@ -1,0 +1,13 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@import "styles/menu.scss";
+@import "styles/errorPage.scss";
+@import "styles/searchBar.scss";
+@import "styles/delivery.scss";
+@import "styles/modal.scss"

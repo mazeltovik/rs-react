@@ -1,0 +1,31 @@
+.search {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    svg{
+        height: 3rem;
+        position: absolute;
+        cursor: pointer;
+    }
+    &-icon{
+        fill: #767b91;
+        z-index: 99;
+        padding: 1rem 0 1rem 0
+    }
+    &-delete {
+        fill: #c7ccdb;
+        margin-left: 13.75rem;
+        padding: 1rem 0 1rem 0;
+        // display: none;
+    }
+    &-input{
+        width: 16rem;
+        box-shadow: 0 0 10px 5px #e1e5ee;
+        border: none;
+        border-radius: .5rem;
+        padding: 0.5rem 1.875rem 0.5rem 1.875rem;
+        font-size: 1rem;
+        outline: none;
+    }
+}
